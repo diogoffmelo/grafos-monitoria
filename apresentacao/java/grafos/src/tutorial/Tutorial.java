@@ -1,18 +1,14 @@
 package tutorial;
 
+import java.util.Iterator;
+import java.util.function.Supplier;
+
 import org.jgrapht.Graph;
+import org.jgrapht.generate.CompleteGraphGenerator;
 import org.jgrapht.graph.DefaultEdge;
 import org.jgrapht.graph.SimpleGraph;
-
-
-import org.jgrapht.*;
-import org.jgrapht.generate.*;
-import org.jgrapht.graph.*;
-import org.jgrapht.traverse.*;
+import org.jgrapht.traverse.DepthFirstIterator;
 import org.jgrapht.util.SupplierUtil;
-
-import java.util.*;
-import java.util.function.Supplier;
 
 
 public class Tutorial {
