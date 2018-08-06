@@ -102,3 +102,11 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+*.class
+*.classpath
+*.project
+*.settings
+*.metadata
+*.recommenders
+*.png
